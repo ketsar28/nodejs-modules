@@ -1,0 +1,1 @@
+ usia : 18, hobi : study

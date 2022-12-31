@@ -1,0 +1,10 @@
+<h1>Ini Halaman About</h1>
+
+<!-- looping -->
+<h3 class="mt-5">Daftar Mahasiswa :</h3>
+<% mahasiswa.forEach(mhs => { %>
+<ul>
+  <li>Nama : <%= mhs.nama %></li>
+  <li>Prodi : <%= mhs.prodi %></li>
+</ul>
+<% }) %>
